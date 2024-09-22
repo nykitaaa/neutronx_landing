@@ -1,0 +1,209 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "rules": "Rules",
+      "contacts": "Contacts"
+    }
+  },
+
+  "landing": {
+    "hero": {
+      "title": "Safe,reliable and fast crypto exchanger",
+      "text": "Trade cryptocurrency swiftly, efficiently",
+      "btn": "Get Started"
+    },
+
+    "aboutUs": {
+      "statisticList": {
+        "item1": "Sources of liquidity",
+        "item2": "Total volume",
+        "item3": "Amount of accounts",
+        "item4": "Transactions",
+        "item5": "Leading coins"
+      },
+
+      "subTitle": "About us",
+
+      "title": "Seamless Processes",
+
+      "text": {
+        "paragraph1": "Offering an intuitive interface that allows for quick and secure cryptocurrency conversions. The process is designed to be straightforward, enabling you to complete transactions with minimal effort and maximum efficiency.",
+        "paragraph2": "From smooth navigation and straightforward transaction processes to real-time market updates and competitive pricing, we prioritize efficiency and user satisfaction. Our commitment to security ensures that every transaction is conducted with the utmost safety measures so you can enjoy navigating the dynamic world of digital assets."
+      },
+
+      "benefitList": {
+        "item1": "Clear and fast API",
+        "item2": "Trusted traders",
+        "item3": "Fast exchange",
+        "item4": "24/7 support"
+      }
+    },
+
+    "ourProducts": {
+      "subTitle": "what we do",
+
+      "title": "Our Products",
+
+      "list": {
+        "item1": {
+          "title": "Crypto Exchanger",
+          "text": "Crypto Exchanger is a global platform for accepting cryptocurrency payments, providing fast and secure transactions with minimal fees.",
+          "link": "Go to exchanger"
+        },
+        "item2": {
+          "title": "Telegram p2p bot",
+          "text": "The Telegram bot mimics the full functionality of a crypto merchant, offering secure and fast crypto payment acceptance with minimal fees, directly in Telegram.",
+          "link": "Go to bot"
+        },
+        "item3": {
+          "title": "P2P Market",
+          "text": "A crypto exchanger is an intuitive platform that allows you to quickly exchange cryptocurrencies with low fees. It provides a high level of security and support for a variety of assets.",
+          "link": "Go to market"
+        },
+        "item4": {
+          "title": "Сrypto Bridge",
+          "text": "Crypto bridge is a blockchain platform that enables seamless integration and exchange of assets between different cryptocurrency networks, reducing fees and speeding up transactions. It opens up new opportunities for cross-chain interactions, facilitating liquidity and innovation in the digital asset space.",
+          "link": "Go to bridge"
+        },
+        "item5": {
+          "title": "Сrypto Processing Platform",
+          "text": "Our Crypto Processing Platform provides businesses with a seamless, secure, and scalable solution for accepting and managing cryptocurrency payments. Supporting Tether (USDT), it allows users to process payments with low fees and fast transaction speeds.",
+          "link": "Go to platform"
+        }
+      }
+    },
+
+    "question": {
+      "subTitle": "your questions answered",
+
+      "title": "Frequently Asked Questions",
+
+      "list": {
+        "item1": {
+          "title": "Why NeutronX?",
+          "text": "Our platform supports a wide variety of cryptocurrencies, allowing you to trade your preferred digital assets with ease. Additionally, we pride ourselves on providing a reliable and secure service, ensuring your transactions are fast, efficient, and protected. Choose Neutronx for a seamless and trustworthy crypto trading experience."
+        },
+        "item2": {
+          "title": "What cryptocurrencies do you support?",
+          "text": "Our platform supports Tether (USDT), along with a wide range of popular cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), Binance Coin (BNB), Polygon (MATIC), and TRON (TRX), making it easier than ever to exchange and trade securely."
+        },
+        "item3": {
+          "title": "Is my personal information and funds secure?",
+          "text": "We prioritize the security of your personal data and funds with robust measures. Your information is encrypted to prevent unauthorized access, and we undergo regular security audits to maintain high standards. Funds are stored securely in protected wallets, and we employ multi-layered security protocols to safeguard transactions. You can trust that your personal data and funds are safe and secure on our platform."
+        },
+        "item4": {
+          "title": "How long do transactions typically take?",
+          "text": "Transaction times can vary depending on network congestion and blockchain processing speeds. Typically, transactions on our platform are processed promptly, with most completing within minutes. Factors such as network load and blockchain confirmations may affect transaction times, but our goal is to ensure efficient and timely processing for all transactions."
+        }
+      }
+    },
+
+    "stayAhead": {
+      "subTitle": "stay ahead",
+
+      "title": "Get started today",
+
+      "text": "By signing up, you gain access to a diverse range of cryptocurrencies for trading, ensuring you can explore and invest in various digital assets seamlessly. Our platform offers competitive fees, secure transactions, and robust customer support to guide you every step of the way.",
+
+      "btn": "Create account"
+    },
+
+    "appForm": {
+      "title": "Select product",
+      "btn": "Next",
+      "merchant": "Merchant",
+      "marketplace": "Marketplace"
+    }
+  },
+
+  "rules": {
+    "title": "Website rules",
+
+    "info": "Last Updated: March 2024",
+
+    "list": {
+      "item1": {
+        "title": "Access to the Website",
+        "info1": "You have the right to use the Website and any Services as long as you comply with these Terms. You represent and warrant that:",
+        "info2": "you are 16 years of age or older or you have the capacity to contract under applicable law;",
+        "info3": "you are not a Restricted Person, or that you are not otherwise prohibited by applicable law from using the Website or Services;",
+        "info4": "you will not use the Website if the laws of your country prohibit you from doing so and;",
+        "info5": "you access or use the Website or Services for your own personal use.",
+        "info6": "We may, at any time, modify, suspend, or cancel the Website or Services or any portion of it in our sole discretion, without prior notice, and to block or prevent your future access to the Website or use of the Services.",
+        "info7": "Using our Services may require you to connect a wallet. The wallet that you connect to use our Services may be used across BNB Chain ecosystem. Use of Game Center is subject to this Agreement and also requires a Game Center account. Your account is valuable, and you are responsible for maintaining its confidentiality and security. Apple is not responsible for any losses arising from the unauthorized use of your account. Please contact Apple if you suspect that your account has been compromised."
+      },
+
+      "item2": {
+        "title": "Intellectual Property Rights",
+        "info1": "The Website and all content on the Website, including any logos, designs, information, data, text, images, links, sounds, graphics, videos, and other materials, and the selection and arrangement thereof, contained therein are property of n Innovation, our Affiliates or the property of our licensors or other providers of such material and are protected under the intellectual property or proprietary laws.",
+        "info2": "The n name, n Chain logo and all related names, logos, product and service names, designs and slogans (“Chain Marks”) are trademarks owned by us. Nothing on the Website should be construed as granting, by implication, estoppel, or otherwise, any license or right to use, copy, or imitate, in whole or in part, any trademark displayed on the Website, without our written permission.",
+        "info3": "3.3. You cannot create or register any businesses, URLs, domain names, software application names or titles, or social media handles or profiles that include Marks or any confusingly or substantially similar mark, name, title, or work or apply to register, reference, use, copy, and/or claim ownership in Marks in any manner for any purposes, alone or in combination with other letters, punctuation, words, symbols, designs, and/or any creative works, or in any manner that disparages or discredits the Marks."
+      },
+
+      "item3": {
+        "title": "No Representations & Warranties",
+        "info1": "We make no representations, warranties, or guarantees to you of any kind. The Website and the Services are offered strictly on an as-is, as-available basis and, without limiting the generality of the foregoing, are offered without any representation as to merchantability or fitness for any particular purpose. We do not make any representations or warranties that access to the Website or the Services, or any of the materials contained therein, will be continuous, uninterrupted, timely, or error-free.",
+        "info2": "You should not rely on the information provided on the Website. Although we intend to provide accurate and timely information on the Website, we do not warrant that the Website will always be entirely accurate, complete, or current and it may also include technical inaccuracies or typographical errors. In an effort to continue to provide you with as complete and accurate information as possible, information may, to the extent permitted by Applicable Law, be changed or updated from time to time without notice, including without limitation information regarding our policies, agreements, products, and services. Accordingly, you should verify all information before relying on it, and all decisions based on information contained on the Website are your sole responsibility and we shall have no liability for any such decisions."
+      },
+
+      "item4": {
+        "title": "Assignment",
+        "info1": "These Terms, and any of the rights, duties, and obligations contained herein, are not assignable by you without our prior written consent. These Terms, and any of the rights, duties, and obligations contained herein, are freely assignable by us without notice or your consent. Any attempt by you to assign these Terms without written consent is void."
+      },
+
+      "item5": {
+        "title": "Disclaimer",
+        "info1": "We provide the Website and any Services on an “as is” and “as available” basis. The Website and the Services may be subject to limitations, delays, or other problems inherent to the use of the internet and are not guaranteed to be available or error free at all times."
+      }
+    }
+  },
+
+  "contacts": {
+    "title": "Contacts",
+    "email": "Email",
+    "telegram": "Telegram",
+    "telegramBot": "Telegram bot",
+
+    "form": {
+      "title": "Subscribe for ours",
+      "info": "Get weekly update about our product on your email, no spam guaranteed we promise ✌️",
+      "email": "Enter your email",
+      "button": "Subscribe"
+    }
+  },
+
+  "footer": {
+    "mainList": {
+      "item1": {
+        "title": "Our service",
+        "list": {
+          "item1": "Crypto merchante",
+          "item2": "Merchant Telegram bot"
+        }
+      },
+      "item2": {
+        "title": "For developers",
+        "list": {
+          "item1": "Documentation"
+        }
+      },
+      "item3": {
+        "title": "For users",
+        "list": {
+          "item1": "FaQ",
+          "item2": "Support"
+        }
+      },
+      "item4": {
+        "title": "Subscribe to our:"
+      }
+    },
+
+    "secondaryList": {
+      "item1": "© 2024 merch, All Rights Reserved.",
+      "item2": "Privacy policy",
+      "item3": "Terms of condition"
+    }
+  }
+}
