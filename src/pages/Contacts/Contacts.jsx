@@ -1,24 +1,23 @@
 import { useTranslation } from "react-i18next";
-import { Svg, Container } from "components/common";
+import { useApp } from "hooks";
+import { Svg, Container, Text } from "components/common";
 import sprite from "assets/images/sprite.svg";
-// import contacts from 'assets/images/contacts-2x.webp';
+import { imgContactsPage } from "assets/images";
 import {
   StyledSection,
-  StyledPrimaryTitle,
+  StyledTopWrp,
+  StyledTitle,
   StyledImg,
   StyledList,
   StyledItem,
-  StyledTextIconWrp,
-  StyledText,
-  StyledSecondaryTitle,
-  StyledForm,
-  StyledInputWrp,
   StyledInput,
   StyledBtn,
+  StyledInputWrp,
 } from "./Contacts.styled";
 
 const Contacts = () => {
   const { t } = useTranslation();
+  const { theme } = useApp();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -27,78 +26,82 @@ const Contacts = () => {
   return (
     <Container>
       <StyledSection>
-        <StyledPrimaryTitle>{t("contacts.title")}</StyledPrimaryTitle>
-        {/* <StyledImg src={contacts} alt="contacts" loading="lazy" /> */}
+        <StyledTopWrp>
+          <StyledTitle>{t("contacts.title")}</StyledTitle>
+
+          <StyledImg
+            src={imgContactsPage.email[theme]}
+            alt="contacts"
+            loading="lazy"
+          />
+        </StyledTopWrp>
 
         <StyledList>
           <StyledItem>
-            <StyledTextIconWrp>
-              <Svg w_m="20" h_m="20" mg_r_m="4" mg_r_d="8">
-                <use href={`${sprite}#contacts_email`}></use>
-              </Svg>
-              <StyledText>{t("contacts.email")}</StyledText>
-            </StyledTextIconWrp>
-            <StyledSecondaryTitle>neutronx@gmail.com</StyledSecondaryTitle>
+            <Text fz="12" fw="500" c="primary">
+              For general queries
+            </Text>
+
+            <Text fz="32" fw="600" c="primary">
+              neutronx@gmail.com
+            </Text>
           </StyledItem>
 
           <StyledItem>
-            <StyledTextIconWrp>
-              <Svg w_m="18" h_m="18" mg_r_m="4" mg_r_d="8">
-                <use href={`${sprite}#contacts_telegram`}></use>
-              </Svg>
-              <StyledText>{t("contacts.telegram")}</StyledText>
-            </StyledTextIconWrp>
+            <Text fz="12" fw="500" c="primary">
+              Join our channel
+            </Text>
+
             <a
               href="https://t.me/+J6TN6qr9_PA0OGUy"
               target="_blank"
               rel="noreferrer"
             >
-              <StyledSecondaryTitle>neutronx</StyledSecondaryTitle>
+              <Text fz="32" fw="600" c="primary">
+                neutronx
+              </Text>
             </a>
           </StyledItem>
 
           <StyledItem>
-            <StyledTextIconWrp>
-              <Svg w_m="18" h_m="18" mg_r_m="4" mg_r_d="8">
-                <use href={`${sprite}#contacts_telegram`}></use>
-              </Svg>
-              <StyledText>{t("contacts.telegramBot")}</StyledText>
-            </StyledTextIconWrp>
+            <Text fz="12" fw="500" c="primary">
+              Telegram bot
+            </Text>
+
             <a
               href="https://t.me/neutronXchange_bot"
               target="_blank"
               rel="noreferrer"
             >
-              <StyledSecondaryTitle>neutronx-bot</StyledSecondaryTitle>
+              <Text fz="32" fw="600" c="primary">
+                neutronx-bot
+              </Text>
             </a>
           </StyledItem>
+
+          <StyledItem>
+            <form onSubmit={handleSubmit}>
+              <Text mg_b='12' fz="12" fw="500" c="primary">
+                {t("contacts.form.title")}
+              </Text>
+              {/* <Text c="primary">{t("contacts.form.info")}</Text> */}
+
+              <StyledInputWrp>
+                <Svg p="absolute" t="26" l="4" w_m="24" h_m="24" c="secondary">
+                  <use href={`${sprite}#form-email`}></use>
+                </Svg>
+
+                <StyledInput
+                  name="email"
+                  type="email"
+                  placeholder={t("contacts.form.email")}
+                />
+
+                <StyledBtn>{t("contacts.form.button")}</StyledBtn>
+              </StyledInputWrp>
+            </form>
+          </StyledItem>
         </StyledList>
-
-        <StyledForm onSubmit={handleSubmit}>
-          <StyledSecondaryTitle>{t("contacts.form.title")}</StyledSecondaryTitle>
-          <StyledText w_m="359" w_d="470" style={{ marginBottom: "50px" }}>
-            {t("contacts.form.info")}
-          </StyledText>
-
-          <StyledInputWrp>
-            <Svg
-              w_m="24"
-              h_m="24"
-              c="secondary"
-              type="form"
-              style={{ left: "5%" }}
-            >
-              <use href={`${sprite}#email`}></use>
-            </Svg>
-            <StyledInput
-              name="email"
-              type="email"
-              autoComplete="off"
-              placeholder={t("contacts.form.email")}
-            />
-            <StyledBtn>{t("contacts.form.button")}</StyledBtn>
-          </StyledInputWrp>
-        </StyledForm>
       </StyledSection>
     </Container>
   );

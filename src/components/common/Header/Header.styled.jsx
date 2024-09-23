@@ -63,7 +63,7 @@ export const StyledMenuButton = styled.button`
     margin-left: 10px;
 
     background: #ffffff;
-    border: 5px solid var(--border-mobile-menu-button);
+    border: 5px solid var(--border-mobile-menu-color);
     border-radius: 50%;
   }
 

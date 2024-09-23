@@ -1,14 +1,15 @@
 import { useTranslation } from "react-i18next";
+import { useApp } from "hooks";
 import { Svg, Container } from "components/common";
 import sprite from "assets/images/sprite.svg";
-// import rules from 'assets/images/rules-2x.webp';
+import { imgRulesPage } from "assets/images";
 import {
   StyledSection,
-  StyledWrp,
-  StyledPrimaryTitle,
+  StyledTopWrp,
+  StyledTitle,
   StyledInfoBlock,
   StyledImg,
-  StyledSecondaryTitle,
+  StyledParagraphTitle,
   StyledText,
   StyledList,
   StyledItem,
@@ -18,88 +19,105 @@ import {
 const Rules = () => {
   const { t } = useTranslation();
 
+  const { theme } = useApp();
+
   return (
     <Container>
       <StyledSection>
-        <StyledWrp>
+        <StyledTopWrp>
           <div>
-            <StyledPrimaryTitle>{t("rules.title")}</StyledPrimaryTitle>
+            <StyledTitle>{t("rules.title")}</StyledTitle>
 
             <StyledInfoBlock>
-              <Svg w_m="24" h_m="24" mg_r_d="10" c="primary">
+              <Svg w_m="24" h_m="24" mg_r_d="10" style={{ fill: "#ffffff" }}>
                 <use href={`${sprite}#rules-info`}></use>
               </Svg>
-              <StyledText>{t("rules.info")}</StyledText>
+
+              <StyledText style={{ color: "#ffffff" }}>
+                {t("rules.info")}
+              </StyledText>
             </StyledInfoBlock>
           </div>
 
-          {/* <StyledImg src={rules} alt="rules" loading="lazy" /> */}
-        </StyledWrp>
+          <StyledImg
+            src={imgRulesPage.rules[theme]}
+            alt="rules"
+            loading="lazy"
+          />
+        </StyledTopWrp>
 
-        <StyledSecondaryTitle>
+        <StyledParagraphTitle>
           {t("rules.list.item1.title")}
-        </StyledSecondaryTitle>
+        </StyledParagraphTitle>
+
         <StyledText mg_b_d="16">{t("rules.list.item1.info1")}</StyledText>
 
         <StyledList>
           <StyledItem>
-            <StyledDot></StyledDot>
+            <StyledDot />
+
             <StyledText>{t("rules.list.item1.info2")}</StyledText>
           </StyledItem>
 
           <StyledItem>
-            <StyledDot></StyledDot>
+            <StyledDot />
+
             <StyledText>{t("rules.list.item1.info3")}</StyledText>
           </StyledItem>
 
           <StyledItem>
-            <StyledDot></StyledDot>
+            <StyledDot />
+
             <StyledText>{t("rules.list.item1.info4")}</StyledText>
           </StyledItem>
 
           <StyledItem>
-            <StyledDot></StyledDot>
+            <StyledDot />
+
             <StyledText>{t("rules.list.item1.info5")}</StyledText>
           </StyledItem>
         </StyledList>
 
         <StyledText mg_b_d="16">{t("rules.list.item1.info6")}</StyledText>
 
-        <StyledText mg_b_m="42" mg_b_d="80">
+        <StyledText mg_b_m="32" mg_b_d="60">
           {t("rules.list.item1.info7")}
         </StyledText>
 
-        <StyledSecondaryTitle>
+        <StyledParagraphTitle>
           {t("rules.list.item2.title")}
-        </StyledSecondaryTitle>
+        </StyledParagraphTitle>
+
         <StyledText mg_b_d="16">{t("rules.list.item2.info1")}</StyledText>
 
         <StyledText mg_b_d="16">{t("rules.list.item2.info2")}</StyledText>
 
-        <StyledText mg_b_m="42" mg_b_d="80">
+        <StyledText mg_b_m="32" mg_b_d="60">
           {t("rules.list.item2.info3")}
         </StyledText>
 
-        <StyledSecondaryTitle>
+        <StyledParagraphTitle>
           {t("rules.list.item3.title")}
-        </StyledSecondaryTitle>
+        </StyledParagraphTitle>
 
         <StyledText mg_b_d="16">{t("rules.list.item3.info1")}</StyledText>
 
-        <StyledText mg_b_m="42" mg_b_d="80">
+        <StyledText mg_b_m="32" mg_b_d="60">
           {t("rules.list.item3.info2")}
         </StyledText>
 
-        <StyledSecondaryTitle>
+        <StyledParagraphTitle>
           {t("rules.list.item4.title")}
-        </StyledSecondaryTitle>
-        <StyledText mg_b_m="42" mg_b_d="80">
+        </StyledParagraphTitle>
+
+        <StyledText mg_b_m="32" mg_b_d="60">
           {t("rules.list.item4.info1")}
         </StyledText>
 
-        <StyledSecondaryTitle>
+        <StyledParagraphTitle>
           {t("rules.list.item5.title")}
-        </StyledSecondaryTitle>
+        </StyledParagraphTitle>
+
         <StyledText>{t("rules.list.item5.info1")}</StyledText>
       </StyledSection>
     </Container>

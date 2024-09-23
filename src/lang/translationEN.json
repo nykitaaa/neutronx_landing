@@ -118,7 +118,7 @@
   },
 
   "rules": {
-    "title": "Website rules",
+    "title": "Website guidelines",
 
     "info": "Last Updated: March 2024",
 
@@ -168,7 +168,7 @@
     "form": {
       "title": "Subscribe for ours",
       "info": "Get weekly update about our product on your email, no spam guaranteed we promise ✌️",
-      "email": "Enter your email",
+      "email": "Email",
       "button": "Subscribe"
     }
   },

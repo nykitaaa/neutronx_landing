@@ -19,28 +19,29 @@ export const StyledSection = styled.section`
   }
 `;
 
-export const StyledWrp = styled.div`
-  @media screen and (max-width: 759px) {
-    margin-bottom: 40px;
-  }
-
+export const StyledTopWrp = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 `;
 
-export const StyledPrimaryTitle = styled.h1`
+export const StyledTitle = styled.h1`
   margin-bottom: 12px;
 
-  font-size: 38px;
-  font-weight: 800;
-  line-height: 131.579%;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 150%;
 
   color: var(--text-primary-color);
 
   ${mq.tablet} {
-    font-size: 75px;
-    line-height: 106.667%;
+    margin-bottom: 16px;
+
+    font-size: 40px;
+  }
+
+  ${mq.desktop} {
+    font-size: 48px;
   }
 `;
 
@@ -48,56 +49,69 @@ export const StyledInfoBlock = styled.div`
   display: inline-flex;
   align-items: center;
 
-  padding: 10px 18px 10px 22px;
+  margin-bottom: 12px;
+  padding: 10px 18px;
 
-  background: var(--background-secondary-color);
-
+  background-image: var(--background-landing-about-us-benefit-list-item-color),
+    var(--border-landing-about-us-benefit-list-item-color);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border: 1px solid #645c70;
+  border: double 1px transparent;
   border-radius: 99px;
 
   ${mq.tablet} {
-    padding: 12px 18px 12px 22px;
+    margin-bottom: 16px;
+    padding: 12px 22px;
+  }
+
+  ${mq.desktop} {
+    margin-bottom: 0;
   }
 `;
 
 export const StyledImg = styled.img`
   display: none;
 
-  ${mq.tablet} {
+  ${mq.desktop} {
     display: block;
-    width: 318px;
-    height: 351px;
+    width: 660px;
+    height: 450px;
   }
 `;
 
-export const StyledSecondaryTitle = styled.h2`
+export const StyledParagraphTitle = styled.h2`
   margin-bottom: 20px;
 
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 166.667%;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 150%;
 
   color: var(--text-primary-color);
 
   ${mq.tablet} {
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 
+    font-size: 36px;
+  }
+
+  ${mq.desktop} {
     font-size: 40px;
-    font-weight: 800;
-    line-height: 200%;
   }
 `;
 
 export const StyledText = styled.p`
-  @media screen and (max-width: 759px) {
-    margin-bottom: ${({ mg_b_m }) => `${mg_b_m}px`};
-  }
-
-  margin-bottom: ${({ mg_b_d }) => `${mg_b_d}px`};
+  width: 100%;
+  margin-bottom: ${({ mg_b_m }) => `${mg_b_m}px`};
 
   font-weight: 600;
-  line-height: 142.857%;
+  font-size: 16px;
 
   color: var(--text-primary-color);
+
+  ${mq.desktop} {
+    margin-bottom: ${({ mg_b_d }) => `${mg_b_d}px`};
+  }
 `;
 
 export const StyledList = styled.ul``;
@@ -109,6 +123,7 @@ export const StyledItem = styled.li`
 `;
 
 export const StyledDot = styled.div`
+  display: inline-block;
   width: 4px;
   height: 4px;
   margin: 0 8px;

@@ -51,6 +51,7 @@
   --text-primary-color: #ffffff;
   --text-secondary-color: #7f808d;
 
+  --border-mobile-menu-color: transparent;
   --border-landing-about-us-circle-outer-color: radial-gradient(
     farthest-side at 30% 30%,
     #2f2939,
@@ -74,6 +75,7 @@
   --border-landing-product-link-color: #ffffff;
   --border-landing-coin-list-item-color: #b585fc;
   --border-footer-color: #292c3d;
+  --border-rules-info-area-color: #b585fc;
 
   --svg-primary-color: #ffffff;
   --svg-secondary-color: #7f808d;
@@ -122,6 +124,7 @@
   --text-primary-color: #333333;
   --text-secondary-color: rgba(51, 51, 51, 0.5);
 
+  --border-mobile-menu-color: #f1f1f1;
   --border-landing-about-us-circle-outer-color: radial-gradient(
     farthest-side at 30% 30%,
     #c1a875,
@@ -145,6 +148,7 @@
   --border-landing-product-link-color: #000000;
   --border-landing-coin-list-item-color: #a7a7a7;
   --border-footer-color: rgba(51, 51, 51, 0.2);
+  --border-rules-info-area-color: #a7a7a7;
 
   --svg-primary-color: #333333;
   --svg-secondary-color: #333333;
