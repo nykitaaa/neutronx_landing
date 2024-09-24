@@ -43,6 +43,11 @@
     rgba(37, 32, 50, 0.5) 41.68%,
     rgba(37, 32, 50, 0.3) 96.75%
   );
+  --background-rules-info-area-color: linear-gradient(
+    152deg,
+    #2a2531 6.6%,
+    #17131c 94.23%
+  );
   --background-sphere-color: #b585fc;
 
   --button-primary-color: #ffffff;
@@ -75,7 +80,11 @@
   --border-landing-product-link-color: #ffffff;
   --border-landing-coin-list-item-color: #b585fc;
   --border-footer-color: #292c3d;
-  --border-rules-info-area-color: #b585fc;
+  --border-rules-info-area-color: radial-gradient(
+    farthest-side at 40% 5%,
+    #645c70,
+    #2e204b
+  );
 
   --svg-primary-color: #ffffff;
   --svg-secondary-color: #7f808d;
@@ -116,6 +125,11 @@
     #6e6b70 -24.73%,
     #1d1d21 98.56%
   );
+  --background-rules-info-area-color: linear-gradient(
+    158deg,
+    #353438 16.86%,
+    #1d1d21 93.99%
+  );
   --background-sphere-color: transparent;
 
   --button-primary-color: #333333;
@@ -148,7 +162,11 @@
   --border-landing-product-link-color: #000000;
   --border-landing-coin-list-item-color: #a7a7a7;
   --border-footer-color: rgba(51, 51, 51, 0.2);
-  --border-rules-info-area-color: #a7a7a7;
+  --border-rules-info-area-color: linear-gradient(
+    158deg,
+    #353438 16.86%,
+    #1d1d21 93.99%
+  );
 
   --svg-primary-color: #333333;
   --svg-secondary-color: #333333;

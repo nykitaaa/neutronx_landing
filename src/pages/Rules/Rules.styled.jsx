@@ -52,8 +52,8 @@ export const StyledInfoBlock = styled.div`
   margin-bottom: 12px;
   padding: 10px 18px;
 
-  background-image: var(--background-landing-about-us-benefit-list-item-color),
-    var(--border-landing-about-us-benefit-list-item-color);
+  background-image: var(--background-rules-info-area-color),
+    var(--border-rules-info-area-color);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   border: 1px solid #645c70;
