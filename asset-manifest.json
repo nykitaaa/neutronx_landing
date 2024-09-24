@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/neutronx_landing/static/css/main.802218eb.css",
+    "main.js": "/neutronx_landing/static/js/main.e1876d21.js",
+    "static/js/772.fce8ca42.chunk.js": "/neutronx_landing/static/js/772.fce8ca42.chunk.js",
+    "static/js/116.d423053a.chunk.js": "/neutronx_landing/static/js/116.d423053a.chunk.js",
+    "static/js/986.a8ad5693.chunk.js": "/neutronx_landing/static/js/986.a8ad5693.chunk.js",
+    "static/js/646.3aee41cc.chunk.js": "/neutronx_landing/static/js/646.3aee41cc.chunk.js",
+    "static/media/stay_ahead_dark.mp4": "/neutronx_landing/static/media/stay_ahead_dark.f1e25759e8a6da37c2fb.mp4",
+    "static/media/stay_ahead_light.mp4": "/neutronx_landing/static/media/stay_ahead_light.bb6b1e627b5c84cc66a1.mp4",
+    "static/media/hero_light.mp4": "/neutronx_landing/static/media/hero_light.e3c2dae0f9e2eae48e76.mp4",
+    "static/media/hero_dark.mp4": "/neutronx_landing/static/media/hero_dark.257b6aca6b98394b2b85.mp4",
+    "static/media/sprite.svg": "/neutronx_landing/static/media/sprite.3c1547dafe6015e8aaacbfe0f17e4c99.svg",
+    "static/media/product_exchanger_light_2x.webp": "/neutronx_landing/static/media/product_exchanger_light_2x.392520baeacadcbc2afd.webp",
+    "static/media/product_exchanger_dark_2x.webp": "/neutronx_landing/static/media/product_exchanger_dark_2x.31baecc9b4a958151e79.webp",
+    "static/media/email_dark_2x.webp": "/neutronx_landing/static/media/email_dark_2x.77cf86e3c89048af4d87.webp",
+    "static/media/product_bridge_dark_2x.webp": "/neutronx_landing/static/media/product_bridge_dark_2x.39f0321856d4e5d21ebe.webp",
+    "static/media/rules_dark_2x.webp": "/neutronx_landing/static/media/rules_dark_2x.66f31d12f293a564865a.webp",
+    "static/media/email_light_2x.webp": "/neutronx_landing/static/media/email_light_2x.01f31a143a21ae3e2c97.webp",
+    "static/media/rules_light_2x.webp": "/neutronx_landing/static/media/rules_light_2x.b680fc51da70c22bd510.webp",
+    "static/media/product_bridge_light_2x.webp": "/neutronx_landing/static/media/product_bridge_light_2x.d3925070c16598e4ddd4.webp",
+    "static/media/product_telegram_dark_2x.webp": "/neutronx_landing/static/media/product_telegram_dark_2x.ed6b19ad82806ca45a1e.webp",
+    "static/media/product_market_dark_2x.webp": "/neutronx_landing/static/media/product_market_dark_2x.05cdfc7413789d21698e.webp",
+    "static/media/product_telegram_light_2x.webp": "/neutronx_landing/static/media/product_telegram_light_2x.0829614b7267d94f1222.webp",
+    "static/media/product_market_light_2x.webp": "/neutronx_landing/static/media/product_market_light_2x.02968bcfe05d62393db0.webp",
+    "index.html": "/neutronx_landing/index.html",
+    "main.802218eb.css.map": "/neutronx_landing/static/css/main.802218eb.css.map",
+    "main.e1876d21.js.map": "/neutronx_landing/static/js/main.e1876d21.js.map",
+    "772.fce8ca42.chunk.js.map": "/neutronx_landing/static/js/772.fce8ca42.chunk.js.map",
+    "116.d423053a.chunk.js.map": "/neutronx_landing/static/js/116.d423053a.chunk.js.map",
+    "986.a8ad5693.chunk.js.map": "/neutronx_landing/static/js/986.a8ad5693.chunk.js.map",
+    "646.3aee41cc.chunk.js.map": "/neutronx_landing/static/js/646.3aee41cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.802218eb.css",
+    "static/js/main.e1876d21.js"
+  ]
+}
