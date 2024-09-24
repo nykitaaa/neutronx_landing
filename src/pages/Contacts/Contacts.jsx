@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
 import { useApp } from "hooks";
-import { Svg, Container, Text } from "components/common";
+import { Svg, Container, Text, Sphere } from "components/common";
 import sprite from "assets/images/sprite.svg";
 import { imgContactsPage } from "assets/images";
 import {
   StyledSection,
   StyledTopWrp,
   StyledTitle,
+  StyledImgWrp,
   StyledImg,
   StyledList,
   StyledItem,
@@ -29,11 +30,15 @@ const Contacts = () => {
         <StyledTopWrp>
           <StyledTitle>{t("contacts.title")}</StyledTitle>
 
-          <StyledImg
-            src={imgContactsPage.email[theme]}
-            alt="contacts"
-            loading="lazy"
-          />
+          <StyledImgWrp>
+            <StyledImg
+              src={imgContactsPage.email[theme]}
+              alt="contacts"
+              loading="lazy"
+            />
+
+            <Sphere z="-1" t_d="15" l_d="34" w_d="169" h_d="169" f_d="142" />
+          </StyledImgWrp>
         </StyledTopWrp>
 
         <StyledList>

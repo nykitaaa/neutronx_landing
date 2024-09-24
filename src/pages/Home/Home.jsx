@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useApp } from "hooks";
-import { Container, Svg } from "components/common";
+import { Container, Svg, Sphere } from "components/common";
 import { QuestionList } from "components/landing";
 import sprite from "assets/images/sprite.svg";
 import { videoLandingPage } from "assets/videos";
@@ -25,7 +25,6 @@ import {
   StyledSectionSubTitle,
   StyledSectionTitle,
   StyledAboutUsText,
-  StyledSphere,
   StyledAboutUsCircleOuter,
   StyledAboutUsCircleMiddle,
   StyledAboutUsCircleInner,
@@ -188,7 +187,7 @@ const Home = () => {
                 {t("landing.aboutUs.text.paragraph2")}
               </StyledAboutUsText>
 
-              <StyledSphere
+              <Sphere
                 z="0"
                 t_m="-4"
                 l_m="-10"
@@ -1130,7 +1129,7 @@ const Home = () => {
                   alt="bridge"
                 />
 
-                <StyledSphere
+                <Sphere
                   z="-1"
                   t_m="10"
                   l_m="40"
@@ -1172,7 +1171,7 @@ const Home = () => {
                   alt="merchant"
                 />
 
-                <StyledSphere
+                <Sphere
                   z="-1"
                   t_m="10"
                   l_m="40"
@@ -1217,7 +1216,7 @@ const Home = () => {
                   alt="telegram"
                 />
 
-                <StyledSphere
+                <Sphere
                   z="-1"
                   t_m="10"
                   l_m="40"
@@ -1259,7 +1258,7 @@ const Home = () => {
                   alt="exchanger"
                 />
 
-                <StyledSphere
+                <Sphere
                   z="-1"
                   t_m="10"
                   l_m="40"
@@ -1304,7 +1303,7 @@ const Home = () => {
                   alt="exchanger"
                 />
 
-                <StyledSphere
+                <Sphere
                   z="-1"
                   t_m="10"
                   l_m="40"

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useApp } from "hooks";
-import { Svg, Container } from "components/common";
+import { Svg, Container, Sphere } from "components/common";
 import sprite from "assets/images/sprite.svg";
 import { imgRulesPage } from "assets/images";
 import {
@@ -8,6 +8,7 @@ import {
   StyledTopWrp,
   StyledTitle,
   StyledInfoBlock,
+  StyledImgWrp,
   StyledImg,
   StyledParagraphTitle,
   StyledText,
@@ -39,11 +40,22 @@ const Rules = () => {
             </StyledInfoBlock>
           </div>
 
-          <StyledImg
-            src={imgRulesPage.rules[theme]}
-            alt="rules"
-            loading="lazy"
-          />
+          <StyledImgWrp>
+            <StyledImg
+              src={imgRulesPage.rules[theme]}
+              alt="rules"
+              loading="lazy"
+            />
+
+            <Sphere
+              z="-1"
+              t_d="20"
+              l_d="32"
+              w_d="169"
+              h_d="169"
+              f_d="142"
+            />
+          </StyledImgWrp>
         </StyledTopWrp>
 
         <StyledParagraphTitle>

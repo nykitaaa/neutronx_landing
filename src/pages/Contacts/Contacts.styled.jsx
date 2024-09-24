@@ -46,6 +46,10 @@ export const StyledTitle = styled.h1`
   }
 `;
 
+export const StyledImgWrp = styled.div`
+  position: relative;
+`;
+
 export const StyledImg = styled.img`
   display: none;
 

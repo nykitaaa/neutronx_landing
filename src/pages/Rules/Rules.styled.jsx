@@ -70,6 +70,10 @@ export const StyledInfoBlock = styled.div`
   }
 `;
 
+export const StyledImgWrp = styled.div`
+  position: relative;
+`;
+
 export const StyledImg = styled.img`
   display: none;
 
