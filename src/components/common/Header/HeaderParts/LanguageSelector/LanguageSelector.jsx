@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence } from "framer-motion";
 import { Svg, Text } from "components/common";
@@ -21,27 +21,29 @@ const LanguageSelector = () => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedLanguage, setSelectedLanguage] = useState(() => {
-    return JSON.parse(localStorage.getItem("language")) || "en";
+    return JSON.parse(localStorage.getItem("language")) || languages[0];
   });
-
-  const languageInUpperCase = selectedLanguage.toUpperCase();
 
   const handleButtonClick = () => {
     setIsDropdownOpen((currentState) => !currentState);
   };
 
-  const handleSelectLanguage = (val) => {
-    i18n.changeLanguage(val);
-    setSelectedLanguage(val);
-    localStorage.setItem("language", JSON.stringify(val));
+  const handleSelectLanguage = (data) => {
+    setSelectedLanguage(data);
+    localStorage.setItem("language", JSON.stringify(data));
   };
+
+  useEffect(() => {
+    i18n.changeLanguage(selectedLanguage.code);
+  }, [selectedLanguage.code, i18n]);
 
   return (
     <>
       <StyledWrp onClick={handleButtonClick}>
         <Text fw="800" c="primary">
-          {languageInUpperCase}
+          {selectedLanguage.name}
         </Text>
+
         <StyledBtn
           type="button"
           style={{
@@ -72,7 +74,7 @@ const LanguageSelector = () => {
                     exit={{ opacity: 0, y: -30, transition: { duration: 0.2 } }}
                     transition={{ delay: index * 0.05, duration: 0.25 }}
                     key={el.code}
-                    onClick={() => handleSelectLanguage(el.code)}
+                    onClick={() => handleSelectLanguage(el)}
                   >
                     <Text fw="800" c="primary">
                       {el.name}

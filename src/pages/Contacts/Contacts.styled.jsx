@@ -51,6 +51,11 @@ export const StyledImg = styled.img`
 
   ${mq.tablet} {
     display: block;
+    width: 450px;
+    height: 250px;
+  }
+
+  ${mq.desktop} {
     width: 690px;
     height: 440px;
   }

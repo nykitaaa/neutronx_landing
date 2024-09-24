@@ -38,7 +38,7 @@ const Contacts = () => {
 
         <StyledList>
           <StyledItem>
-            <Text fz="12" fw="500" c="primary">
+            <Text fz="16" fw="500" c="primary">
               For general queries
             </Text>
 
@@ -48,7 +48,7 @@ const Contacts = () => {
           </StyledItem>
 
           <StyledItem>
-            <Text fz="12" fw="500" c="primary">
+            <Text fz="16" fw="500" c="primary">
               Join our channel
             </Text>
 
@@ -64,7 +64,7 @@ const Contacts = () => {
           </StyledItem>
 
           <StyledItem>
-            <Text fz="12" fw="500" c="primary">
+            <Text fz="16" fw="500" c="primary">
               Telegram bot
             </Text>
 
@@ -81,10 +81,9 @@ const Contacts = () => {
 
           <StyledItem>
             <form onSubmit={handleSubmit}>
-              <Text mg_b='12' fz="12" fw="500" c="primary">
+              <Text mg_b="12" fz="16" fw="500" c="primary">
                 {t("contacts.form.title")}
               </Text>
-              {/* <Text c="primary">{t("contacts.form.info")}</Text> */}
 
               <StyledInputWrp>
                 <Svg p="absolute" t="26" l="4" w_m="24" h_m="24" c="secondary">
