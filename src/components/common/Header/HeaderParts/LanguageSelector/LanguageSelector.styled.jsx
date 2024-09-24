@@ -38,7 +38,7 @@ export const StyledList = styled(motion.ul)`
 `;
 
 export const StyledItem = styled(motion.li)`
-  margin: 4px 0;
+  padding: 4px 0;
 
   text-align: center;
   user-select: none;
