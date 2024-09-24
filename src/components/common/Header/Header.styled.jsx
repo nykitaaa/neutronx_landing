@@ -52,20 +52,20 @@ export const StyledMobileMenu = styled(motion.div)`
 `;
 
 export const StyledMenuButton = styled.button`
-  @media screen and (max-width: 1439px) {
-    z-index: 3;
+  z-index: 3;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
 
-    background: #ffffff;
-    border: 5px solid var(--border-mobile-menu-color);
-    border-radius: 50%;
+  background: #ffffff;
+  border: 5px solid var(--border-mobile-menu-color);
+  border-radius: 50%;
+
+  ${mq.desktop} {
+    display: none;
   }
-
-  display: none;
 `;

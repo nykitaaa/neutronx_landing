@@ -1,21 +1,20 @@
-import styled from '@emotion/styled';
-import { NavLink } from 'react-router-dom';
-import { mq } from 'utils';
+import styled from "@emotion/styled";
+import { NavLink } from "react-router-dom";
+import { mq } from "utils";
 
 export const StyledNav = styled.nav`
-  @media screen and (max-width: 1439px) {
-    margin: 20px 0;
-  }
+  margin: 20px 0;
 
   ${mq.desktop} {
     display: flex;
+    margin: 0;
   }
 `;
 
 export const StyledList = styled.ul`
   ${mq.desktop} {
     display: flex;
-    padding: 21px 7px 22.5px 7px;
+    padding: 22px 6px;
 
     background: var(--background-secondary-color);
     border-radius: 99px;
@@ -27,12 +26,13 @@ export const StyledItem = styled.li`
 `;
 
 export const StyledLink = styled(NavLink)`
-  color: var(--text-primary-color);
+  display: block;
+  padding: 16px 0;
+
   font-size: 16px;
   font-weight: 600;
-  display: block;
 
-  padding: 15px 0;
+  color: var(--text-primary-color);
   border-radius: 18px;
 
   &.active {
@@ -42,14 +42,13 @@ export const StyledLink = styled(NavLink)`
 
   ${mq.desktop} {
     display: inline;
-    padding: 16px 20px 17.5px;
+    padding: 18px 20px;
 
     font-size: 14px;
     font-weight: 600;
 
-    border-radius: 99px;
-
     background: transparent;
+    border-radius: 99px;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background 250ms cubic-bezier(0.4, 0, 0.2, 1);

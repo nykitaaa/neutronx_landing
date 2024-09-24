@@ -22,9 +22,6 @@ const store = configureStore({
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
     }),
-  // getDefaultMiddleware({
-  //   serializableCheck: false,
-  // }),
 });
 
 const persistor = persistStore(store);

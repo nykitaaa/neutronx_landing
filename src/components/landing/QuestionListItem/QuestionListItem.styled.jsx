@@ -1,20 +1,20 @@
-import styled from '@emotion/styled';
-import { mq } from 'utils';
+import styled from "@emotion/styled";
+import { mq } from "utils";
 
-export const StyledQuestionItem = styled.li`
+export const StyledWrp = styled.li`
   padding: 16px 0;
 
   border-bottom: 1px solid #7f808d;
   cursor: pointer;
 `;
 
-export const StyledQuestionItemContentWrp = styled.div`
+export const StyledContentWrp = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
-export const StyledQuestionItemTitle = styled.h3`
+export const StyledTitle = styled.h3`
   font-weight: 500;
   line-height: 150%;
 
@@ -25,11 +25,11 @@ export const StyledQuestionItemTitle = styled.h3`
   }
 `;
 
-export const StyledQuestionItemTextWrp = styled.div`
+export const StyledTextWrp = styled.div`
   padding: 20px 0 0;
 `;
 
-export const StyledQuestionItemText = styled.p`
+export const StyledText = styled.p`
   font-size: 12px;
   font-weight: 400;
   line-height: 150%;
@@ -42,7 +42,7 @@ export const StyledQuestionItemText = styled.p`
   }
 `;
 
-export const StyledQuestionItemBtn = styled.button`
+export const StyledBtn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;

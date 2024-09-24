@@ -1167,7 +1167,7 @@ const Home = () => {
 
               <StyledProductItemImgWrp>
                 <StyledProductItemImg
-                  src={imgLandingPage.product_merchant[theme]}
+                  src={imgLandingPage.product_exchanger[theme]}
                   alt="merchant"
                 />
 
@@ -1254,7 +1254,7 @@ const Home = () => {
 
               <StyledProductItemImgWrp>
                 <StyledProductItemImg
-                  src={imgLandingPage.product_exchanger[theme]}
+                  src={imgLandingPage.product_market[theme]}
                   alt="exchanger"
                 />
 

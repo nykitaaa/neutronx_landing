@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Svg } from "components/common";
 import sprite from "assets/images/sprite.svg";
 import {
-  StyledQuestionItem,
-  StyledQuestionItemContentWrp,
-  StyledQuestionItemTitle,
-  StyledQuestionItemTextWrp,
-  StyledQuestionItemText,
-  StyledQuestionItemBtn,
+  StyledWrp,
+  StyledContentWrp,
+  StyledTitle,
+  StyledTextWrp,
+  StyledText,
+  StyledBtn,
 } from "./QuestionListItem.styled";
 
 const QuestionListItem = ({ data }) => {
@@ -20,11 +20,11 @@ const QuestionListItem = ({ data }) => {
   };
 
   return (
-    <StyledQuestionItem onClick={handleDropdownBtnClick}>
-      <StyledQuestionItemContentWrp>
-        <StyledQuestionItemTitle>{title}</StyledQuestionItemTitle>
+    <StyledWrp onClick={handleDropdownBtnClick}>
+      <StyledContentWrp>
+        <StyledTitle>{title}</StyledTitle>
 
-        <StyledQuestionItemBtn
+        <StyledBtn
           type="button"
           style={{
             transform: isDropdownOpen ? "" : "rotate(180deg)",
@@ -35,15 +35,15 @@ const QuestionListItem = ({ data }) => {
           </Svg>
 
           <p className="hidden">tick</p>
-        </StyledQuestionItemBtn>
-      </StyledQuestionItemContentWrp>
+        </StyledBtn>
+      </StyledContentWrp>
 
       {isDropdownOpen && (
-        <StyledQuestionItemTextWrp>
-          <StyledQuestionItemText>{text}</StyledQuestionItemText>
-        </StyledQuestionItemTextWrp>
+        <StyledTextWrp>
+          <StyledText>{text}</StyledText>
+        </StyledTextWrp>
       )}
-    </StyledQuestionItem>
+    </StyledWrp>
   );
 };
 

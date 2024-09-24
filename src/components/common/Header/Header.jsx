@@ -11,9 +11,9 @@ import {
 } from "./Header.styled";
 
 const Header = () => {
-  const { screenWidth } = useApp();
-
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState();
+
+  const { screenWidth } = useApp();
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen((currentState) => !currentState);

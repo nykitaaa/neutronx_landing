@@ -8,6 +8,7 @@ import { StyledWrp, StyledSpan } from "./ThemeSwitcher.styled";
 
 const ThemeSwitcher = () => {
   const dispatch = useDispatch();
+
   const { theme } = useApp();
 
   const handleSwitcherClick = () => {

@@ -1,5 +1,5 @@
-import styled from '@emotion/styled';
-import { mq } from 'utils';
+import styled from "@emotion/styled";
+import { mq } from "utils";
 
 export const StyledMainContentWrp = styled.div`
   border-top: 1px solid var(--border-footer-color);
@@ -15,9 +15,8 @@ export const StyledMainList = styled.ul`
 
   ${mq.tablet} {
     justify-content: space-between;
-    padding: 75px 55px 120px;
-
     max-width: 768px;
+    padding: 75px 55px 120px;
   }
 
   ${mq.desktop} {
@@ -135,19 +134,17 @@ export const StyledSecondaryContentWrp = styled.div`
 `;
 
 export const StyledSecondaryList = styled.ul`
-  @media screen and (max-width: 759px) {
-    position: relative;
-  }
-
+  position: relative;
   max-width: 380px;
   margin: 0 auto;
   padding: 35px 0px 27px;
 
   ${mq.tablet} {
+    position: static;
+
     display: flex;
     justify-content: space-between;
     max-width: 768px;
-
     padding: 40px 55px 43px;
   }
 

@@ -6,8 +6,9 @@ export const StyledHeroVideoWrp = styled.div`
   position: absolute;
   top: 5%;
   left: 0;
-  width: 100%;
   z-index: -1;
+
+  width: 100%;
   overflow: hidden;
 
   ${mq.tablet} {
@@ -18,10 +19,8 @@ export const StyledHeroVideoWrp = styled.div`
 export const StyledHeroVideo = styled.video`
   display: block;
   width: 100%;
-  object-fit: cover;
-  object-position: center right;
-
   height: 320px;
+  object-fit: cover;
 
   ${mq.tablet} {
     height: 616px;
@@ -127,9 +126,8 @@ export const StyledHeroBtn = styled.button`
   font-weight: 600;
   line-height: 120%;
 
-  background: var(--button-primary-color);
   color: var(--button-primary-text-color);
-
+  background: var(--button-primary-color);
   border: none;
   border-radius: 99px;
 
@@ -154,12 +152,12 @@ export const StyledStatisticListWrp = styled.div`
   border-radius: 18px;
 
   ${mq.tablet} {
-    width: 100%;
     position: absolute;
     top: -20%;
     left: 0;
-    transform: none;
 
+    width: 100%;
+    transform: none;
     margin: 0 auto;
     padding: 0;
 
@@ -176,13 +174,12 @@ export const StyledStatisticList = styled.ul`
   display: flex;
   width: 316px;
   flex-wrap: wrap;
-
   margin: -7px -25px;
 
   ${mq.tablet} {
-    width: 760px;
     justify-content: space-between;
     flex-wrap: nowrap;
+    width: 760px;
     margin: 0 auto;
     padding: 0px 32px;
   }
@@ -197,7 +194,6 @@ export const StyledStatisticItem = styled.li`
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-
   margin: 7px 25px;
 
   ${mq.tablet} {
@@ -250,7 +246,6 @@ export const StyledAboutUsSection = styled.section`
   ${mq.tablet} {
     display: flex;
     align-items: center;
-
     padding: 30px 32px 80px;
   }
 
@@ -282,8 +277,6 @@ export const StyledAboutUsText = styled.p`
   color: var(--text-primary-color);
 
   ${mq.tablet} {
-    margin-bottom: 0;
-
     margin-bottom: ${({ mg_b_t }) => (mg_b_t ? `${mg_b_t}px` : "")};
   }
 `;
@@ -380,6 +373,7 @@ export const StyledAboutUsCircleInner = styled.div`
 
 export const StyledAboutUsBenefitList = styled.ul`
   position: absolute;
+
   display: inline-block;
 
   ${mq.smallMobile} {
@@ -406,17 +400,15 @@ export const StyledAboutUsBenefitList = styled.ul`
 export const StyledAboutUsBenefitItem = styled.li`
   display: inline-flex;
   align-items: center;
+  padding: 4px 10px;
 
   border-radius: 99px;
   border: 1px solid #645c70;
-
   background-image: var(--background-landing-about-us-benefit-list-item-color),
     var(--border-landing-about-us-benefit-list-item-color);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   border: double 1px transparent;
-
-  padding: 4px 10px;
 
   :nth-of-type(2) {
     margin-left: 32px;
@@ -719,8 +711,9 @@ export const StyledStayAheadSectionWrp = styled.div`
   flex-direction: column-reverse;
 
   ${mq.tablet} {
-    display: block;
     position: relative;
+
+    display: block;
     height: 475px;
   }
 
@@ -730,8 +723,9 @@ export const StyledStayAheadSectionWrp = styled.div`
 `;
 
 export const StyledStayAheadVideoWrp = styled.div`
-  width: 100%;
   z-index: -1;
+
+  width: 100%;
   overflow: hidden;
 
   ${mq.tablet} {
@@ -829,7 +823,6 @@ export const StyledStayAheadText = styled.p`
 export const StyledStayAheadBtn = styled.button`
   display: flex;
   width: 100%;
-
   height: 60px;
   align-items: center;
   justify-content: center;
