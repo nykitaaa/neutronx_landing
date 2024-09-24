@@ -24,7 +24,6 @@
       },
 
       "subTitle": "About us",
-
       "title": "Seamless Processes",
 
       "text": {
@@ -42,7 +41,6 @@
 
     "ourProducts": {
       "subTitle": "what we do",
-
       "title": "Our Products",
 
       "list": {
@@ -76,7 +74,6 @@
 
     "question": {
       "subTitle": "your questions answered",
-
       "title": "Frequently Asked Questions",
 
       "list": {
@@ -101,25 +98,14 @@
 
     "stayAhead": {
       "subTitle": "stay ahead",
-
       "title": "Get started today",
-
       "text": "By signing up, you gain access to a diverse range of cryptocurrencies for trading, ensuring you can explore and invest in various digital assets seamlessly. Our platform offers competitive fees, secure transactions, and robust customer support to guide you every step of the way.",
-
-      "btn": "Create account"
-    },
-
-    "appForm": {
-      "title": "Select product",
-      "btn": "Next",
-      "merchant": "Merchant",
-      "marketplace": "Marketplace"
+      "btn": "Get Started"
     }
   },
 
   "rules": {
     "title": "Website guidelines",
-
     "info": "Last Updated: March 2024",
 
     "list": {
@@ -133,25 +119,21 @@
         "info6": "We may, at any time, modify, suspend, or cancel the Website or Services or any portion of it in our sole discretion, without prior notice, and to block or prevent your future access to the Website or use of the Services.",
         "info7": "Using our Services may require you to connect a wallet. The wallet that you connect to use our Services may be used across BNB Chain ecosystem. Use of Game Center is subject to this Agreement and also requires a Game Center account. Your account is valuable, and you are responsible for maintaining its confidentiality and security. Apple is not responsible for any losses arising from the unauthorized use of your account. Please contact Apple if you suspect that your account has been compromised."
       },
-
       "item2": {
         "title": "Intellectual Property Rights",
         "info1": "The Website and all content on the Website, including any logos, designs, information, data, text, images, links, sounds, graphics, videos, and other materials, and the selection and arrangement thereof, contained therein are property of n Innovation, our Affiliates or the property of our licensors or other providers of such material and are protected under the intellectual property or proprietary laws.",
         "info2": "The n name, n Chain logo and all related names, logos, product and service names, designs and slogans (“Chain Marks”) are trademarks owned by us. Nothing on the Website should be construed as granting, by implication, estoppel, or otherwise, any license or right to use, copy, or imitate, in whole or in part, any trademark displayed on the Website, without our written permission.",
         "info3": "3.3. You cannot create or register any businesses, URLs, domain names, software application names or titles, or social media handles or profiles that include Marks or any confusingly or substantially similar mark, name, title, or work or apply to register, reference, use, copy, and/or claim ownership in Marks in any manner for any purposes, alone or in combination with other letters, punctuation, words, symbols, designs, and/or any creative works, or in any manner that disparages or discredits the Marks."
       },
-
       "item3": {
         "title": "No Representations & Warranties",
         "info1": "We make no representations, warranties, or guarantees to you of any kind. The Website and the Services are offered strictly on an as-is, as-available basis and, without limiting the generality of the foregoing, are offered without any representation as to merchantability or fitness for any particular purpose. We do not make any representations or warranties that access to the Website or the Services, or any of the materials contained therein, will be continuous, uninterrupted, timely, or error-free.",
         "info2": "You should not rely on the information provided on the Website. Although we intend to provide accurate and timely information on the Website, we do not warrant that the Website will always be entirely accurate, complete, or current and it may also include technical inaccuracies or typographical errors. In an effort to continue to provide you with as complete and accurate information as possible, information may, to the extent permitted by Applicable Law, be changed or updated from time to time without notice, including without limitation information regarding our policies, agreements, products, and services. Accordingly, you should verify all information before relying on it, and all decisions based on information contained on the Website are your sole responsibility and we shall have no liability for any such decisions."
       },
-
       "item4": {
         "title": "Assignment",
         "info1": "These Terms, and any of the rights, duties, and obligations contained herein, are not assignable by you without our prior written consent. These Terms, and any of the rights, duties, and obligations contained herein, are freely assignable by us without notice or your consent. Any attempt by you to assign these Terms without written consent is void."
       },
-
       "item5": {
         "title": "Disclaimer",
         "info1": "We provide the Website and any Services on an “as is” and “as available” basis. The Website and the Services may be subject to limitations, delays, or other problems inherent to the use of the internet and are not guaranteed to be available or error free at all times."
@@ -160,14 +142,13 @@
   },
 
   "contacts": {
-    "title": "Contacts",
-    "email": "Email",
-    "telegram": "Telegram",
-    "telegramBot": "Telegram bot",
+    "title": "Contact us",
+    "queries": "For general queries",
+    "channel": "Join our channel",
+    "bot": "Telegram bot",
 
     "form": {
-      "title": "Subscribe for ours",
-      "info": "Get weekly update about our product on your email, no spam guaranteed we promise ✌️",
+      "title": "Subscribe and get weekly updates",
       "email": "Email",
       "button": "Subscribe"
     }

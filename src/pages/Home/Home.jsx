@@ -85,10 +85,17 @@ const Home = () => {
       text: t("landing.question.list.item4.text"),
     },
   ];
+  const sectionProducts = useRef();
 
   const { theme } = useApp();
   const heroVideoRef = useRef();
   const stayAheadVideoRef = useRef();
+
+  const handleHeroQuestionBtnClick = () => {
+    sectionProducts.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
 
   useEffect(() => {
     heroVideoRef.current.src = videoLandingPage.hero[theme];
@@ -110,7 +117,9 @@ const Home = () => {
 
             <StyledHeroText>{t("landing.hero.text")}</StyledHeroText>
 
-            <StyledHeroBtn type="button">{t("landing.hero.btn")}</StyledHeroBtn>
+            <StyledHeroBtn type="button" onClick={handleHeroQuestionBtnClick}>
+              {t("landing.hero.btn")}
+            </StyledHeroBtn>
           </StyledHeroBlockWrp>
         </StyledHeroSection>
       </Container>
@@ -1090,7 +1099,7 @@ const Home = () => {
       </StyledSectionAboutUsWrp>
 
       <Container>
-        <StyledProductSection>
+        <StyledProductSection ref={sectionProducts}>
           <StyledSectionSubTitle>
             {t("landing.ourProducts.subTitle")}
           </StyledSectionSubTitle>
@@ -1538,7 +1547,10 @@ const Home = () => {
                 </StyledStayAheadText>
               </StyledStayAheadBlockWrp>
 
-              <StyledStayAheadBtn type="button">
+              <StyledStayAheadBtn
+                type="button"
+                onClick={handleHeroQuestionBtnClick}
+              >
                 {t("landing.stayAhead.btn")}
               </StyledStayAheadBtn>
             </StyledStayAheadSectionContentWrp>

@@ -75,8 +75,8 @@ export const StyledImg = styled.img`
 
   ${mq.desktop} {
     display: block;
-    width: 660px;
-    height: 450px;
+    width: 600px;
+    height: 400px;
   }
 `;
 

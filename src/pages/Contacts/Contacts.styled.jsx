@@ -15,7 +15,7 @@ export const StyledSection = styled.section`
   }
 
   ${mq.desktop} {
-    padding: 60px 124px 80px;
+    padding: 120px 124px 80px;
   }
 `;
 
@@ -23,7 +23,7 @@ export const StyledTopWrp = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 `;
 
 export const StyledTitle = styled.h1`
@@ -49,15 +49,10 @@ export const StyledTitle = styled.h1`
 export const StyledImg = styled.img`
   display: none;
 
-  ${mq.tablet} {
-    display: block;
-    width: 450px;
-    height: 250px;
-  }
-
   ${mq.desktop} {
-    width: 690px;
-    height: 440px;
+    display: block;
+    width: 600px;
+    height: 300px;
   }
 `;
 

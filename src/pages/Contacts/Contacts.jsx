@@ -39,7 +39,7 @@ const Contacts = () => {
         <StyledList>
           <StyledItem>
             <Text fz="16" fw="500" c="primary">
-              For general queries
+              {t("contacts.queries")}
             </Text>
 
             <Text fz="32" fw="600" c="primary">
@@ -49,14 +49,10 @@ const Contacts = () => {
 
           <StyledItem>
             <Text fz="16" fw="500" c="primary">
-              Join our channel
+              {t("contacts.channel")}
             </Text>
 
-            <a
-              href="https://t.me/+J6TN6qr9_PA0OGUy"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/">
               <Text fz="32" fw="600" c="primary">
                 neutronx
               </Text>
@@ -65,14 +61,10 @@ const Contacts = () => {
 
           <StyledItem>
             <Text fz="16" fw="500" c="primary">
-              Telegram bot
+              {t("contacts.bot")}
             </Text>
 
-            <a
-              href="https://t.me/neutronXchange_bot"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/">
               <Text fz="32" fw="600" c="primary">
                 neutronx-bot
               </Text>
