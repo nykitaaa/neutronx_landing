@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import i18n from "services/i18n";
 import { AnimatePresence } from "framer-motion";
 import { Svg, Text } from "components/common";
 import sprite from "assets/images/sprite.svg";
@@ -17,12 +17,10 @@ const languages = [
 ];
 
 const LanguageSelector = () => {
-  const { i18n } = useTranslation();
-
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [selectedLanguage, setSelectedLanguage] = useState(() => {
-    return JSON.parse(localStorage.getItem("language")) || languages[0];
-  });
+  const [selectedLanguage, setSelectedLanguage] = useState(
+    () => JSON.parse(localStorage.getItem("language")) || languages[0]
+  );
 
   const handleButtonClick = () => {
     setIsDropdownOpen((currentState) => !currentState);
@@ -35,7 +33,7 @@ const LanguageSelector = () => {
 
   useEffect(() => {
     i18n.changeLanguage(selectedLanguage.code);
-  }, [selectedLanguage.code, i18n]);
+  }, [selectedLanguage.code]);
 
   return (
     <>
