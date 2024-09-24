@@ -11,7 +11,7 @@ export const StyledWrp = styled.div`
   height: 60px;
 
   background: transparent;
-  border: 5px solid var(--background-secondary-color);
+  border: 6px solid var(--background-secondary-color);
   border-radius: 99px;
   cursor: pointer;
 `;

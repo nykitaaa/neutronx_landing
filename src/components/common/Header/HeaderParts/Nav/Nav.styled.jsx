@@ -42,7 +42,7 @@ export const StyledLink = styled(NavLink)`
 
   ${mq.desktop} {
     display: inline;
-    padding: 18px 20px;
+    padding: 17px 20px;
 
     font-size: 14px;
     font-weight: 600;
