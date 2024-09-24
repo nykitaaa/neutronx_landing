@@ -2,7 +2,7 @@
   "name": "neutronx_landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nykitaaa.github.io/",
+  "homepage": "https://nykitaaa.github.io/neutronx_landing",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.13.0",

@@ -12,7 +12,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/neutronx_landing">
       <Provider store={redux.store}>
         <PersistGate loading={null} persistor={redux.persistor}>
           <App />
