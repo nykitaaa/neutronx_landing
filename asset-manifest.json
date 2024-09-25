@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/neutronx_landing/static/css/main.3a204d7c.css",
-    "main.js": "/neutronx_landing/static/js/main.13ec317a.js",
-    "static/js/772.785f2f61.chunk.js": "/neutronx_landing/static/js/772.785f2f61.chunk.js",
+    "main.js": "/neutronx_landing/static/js/main.ac495d1e.js",
+    "static/js/772.ce3fb99f.chunk.js": "/neutronx_landing/static/js/772.ce3fb99f.chunk.js",
     "static/js/116.d423053a.chunk.js": "/neutronx_landing/static/js/116.d423053a.chunk.js",
     "static/js/986.a8ad5693.chunk.js": "/neutronx_landing/static/js/986.a8ad5693.chunk.js",
     "static/js/646.3aee41cc.chunk.js": "/neutronx_landing/static/js/646.3aee41cc.chunk.js",
@@ -25,14 +25,14 @@
     "static/media/product_market_light_2x.webp": "/neutronx_landing/static/media/product_market_light_2x.02968bcfe05d62393db0.webp",
     "index.html": "/neutronx_landing/index.html",
     "main.3a204d7c.css.map": "/neutronx_landing/static/css/main.3a204d7c.css.map",
-    "main.13ec317a.js.map": "/neutronx_landing/static/js/main.13ec317a.js.map",
-    "772.785f2f61.chunk.js.map": "/neutronx_landing/static/js/772.785f2f61.chunk.js.map",
+    "main.ac495d1e.js.map": "/neutronx_landing/static/js/main.ac495d1e.js.map",
+    "772.ce3fb99f.chunk.js.map": "/neutronx_landing/static/js/772.ce3fb99f.chunk.js.map",
     "116.d423053a.chunk.js.map": "/neutronx_landing/static/js/116.d423053a.chunk.js.map",
     "986.a8ad5693.chunk.js.map": "/neutronx_landing/static/js/986.a8ad5693.chunk.js.map",
     "646.3aee41cc.chunk.js.map": "/neutronx_landing/static/js/646.3aee41cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a204d7c.css",
-    "static/js/main.13ec317a.js"
+    "static/js/main.ac495d1e.js"
   ]
 }
