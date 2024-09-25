@@ -50,11 +50,11 @@
   );
   --background-sphere-color: #b585fc;
 
-  --button-primary-color: #ffffff;
-  --button-primary-text-color: #0c0716;
-
   --text-primary-color: #ffffff;
   --text-secondary-color: #7f808d;
+
+  --button-primary-color: #ffffff;
+  --button-primary-text-color: #0c0716;
 
   --border-mobile-menu-color: transparent;
   --border-landing-about-us-circle-outer-color: radial-gradient(
@@ -132,11 +132,11 @@
   );
   --background-sphere-color: transparent;
 
-  --button-primary-color: #333333;
-  --button-primary-text-color: #ffffff;
-
   --text-primary-color: #333333;
   --text-secondary-color: rgba(51, 51, 51, 0.5);
+
+  --button-primary-color: #333333;
+  --button-primary-text-color: #ffffff;
 
   --border-mobile-menu-color: #f1f1f1;
   --border-landing-about-us-circle-outer-color: radial-gradient(
@@ -278,12 +278,4 @@ input[type="number"] {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.Toastify__toast-container {
-  z-index: 999;
-}
-
-.Toastify__close-button {
-  display: none;
 }
