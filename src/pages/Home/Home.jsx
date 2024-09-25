@@ -62,26 +62,26 @@ const Home = () => {
   const questions = [
     {
       id: 1,
-      title: t("landing.question.list.item1.title"),
-      text: t("landing.question.list.item1.text"),
+      title: t("landing.questions.list.item1.title"),
+      text: t("landing.questions.list.item1.text"),
     },
 
     {
       id: 2,
-      title: t("landing.question.list.item2.title"),
-      text: t("landing.question.list.item2.text"),
+      title: t("landing.questions.list.item2.title"),
+      text: t("landing.questions.list.item2.text"),
     },
 
     {
       id: 3,
-      title: t("landing.question.list.item3.title"),
-      text: t("landing.question.list.item3.text"),
+      title: t("landing.questions.list.item3.title"),
+      text: t("landing.questions.list.item3.text"),
     },
 
     {
       id: 4,
-      title: t("landing.question.list.item4.title"),
-      text: t("landing.question.list.item4.text"),
+      title: t("landing.questions.list.item4.title"),
+      text: t("landing.questions.list.item4.text"),
     },
   ];
   const sectionProducts = useRef();
@@ -1505,10 +1505,10 @@ const Home = () => {
       <Container>
         <StyledQuestionSection>
           <StyledSectionSubTitle>
-            {t("landing.question.subTitle")}
+            {t("landing.questions.subTitle")}
           </StyledSectionSubTitle>
 
-          <StyledSectionTitle>{t("landing.question.title")}</StyledSectionTitle>
+          <StyledSectionTitle>{t("landing.questions.title")}</StyledSectionTitle>
 
           <StyledQuestionArea>
             <QuestionList data={questions} />
