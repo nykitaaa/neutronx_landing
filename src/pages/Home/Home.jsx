@@ -1247,9 +1247,9 @@ const Home = () => {
                   {t("landing.ourProducts.list.item3.text")}
                 </StyledProductItemText>
 
-                <StyledProductItemLink href="/">
+                <StyledProductItemNavLink href="/">
                   {t("landing.ourProducts.list.item3.link")}
-                </StyledProductItemLink>
+                </StyledProductItemNavLink>
               </StyledProductItemContentWrp>
 
               <StyledProductItemImgWrp>
