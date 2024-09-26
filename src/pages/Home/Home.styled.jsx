@@ -172,9 +172,13 @@ export const StyledStatisticListWrp = styled.div`
 
 export const StyledStatisticList = styled.ul`
   display: flex;
-  width: 316px;
+
   flex-wrap: wrap;
-  margin: -7px -25px;
+  margin: -6px 0;
+
+  ${mq.mobile} {
+    width: 316px;
+  }
 
   ${mq.tablet} {
     justify-content: space-between;
@@ -194,7 +198,11 @@ export const StyledStatisticItem = styled.li`
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  margin: 7px 25px;
+  margin: 6px 0;
+
+  @media screen and (max-width: 759px) {
+    width: 50%;
+  }
 
   ${mq.tablet} {
     margin: 0;
@@ -382,7 +390,7 @@ export const StyledAboutUsBenefitList = styled.ul`
   }
 
   ${mq.mobile} {
-    bottom: 12%;
+    bottom: 8%;
     left: 54%;
   }
 
