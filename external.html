@@ -1,0 +1,26 @@
+<!-- Cross-Domain localStorage -->
+
+<!-- <html>
+  <head>
+    <script>
+      const token = JSON.parse(localStorage.getItem("token"));
+
+      if (token) {
+        const data = { token };
+
+        parent.postMessage(JSON.stringify(data), "http://localhost:3000");
+      } else {
+        window.addEventListener("message", (message) => {
+          if (message.origin === "http://localhost:3000") {
+            const data = JSON.parse(message.data);
+
+            const { token } = data;
+            if (token) {
+              localStorage.setItem("token", token);
+            }
+          }
+        });
+      }
+    </script>
+  </head>
+</html> -->
