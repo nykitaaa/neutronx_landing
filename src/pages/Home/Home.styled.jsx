@@ -4,16 +4,12 @@ import { mq } from "utils";
 
 export const StyledHeroVideoWrp = styled.div`
   position: absolute;
-  top: 5%;
+  top: 0%;
   left: 0;
   z-index: -1;
 
   width: 100%;
   overflow: hidden;
-
-  ${mq.tablet} {
-    top: 0;
-  }
 `;
 
 export const StyledHeroVideo = styled.video`
@@ -40,11 +36,11 @@ export const StyledHeroSection = styled.section`
   position: relative;
 
   ${mq.smallMobile} {
-    padding: 270px 18px 60px;
+    padding: 200px 18px 60px;
   }
 
   ${mq.mobile} {
-    padding: 270px 38px 60px;
+    padding: 200px 38px 60px;
   }
 
   ${mq.tablet} {

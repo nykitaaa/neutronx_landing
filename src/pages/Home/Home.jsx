@@ -38,7 +38,7 @@ import {
   StyledProductItemTitle,
   StyledProductItemText,
   StyledProductItemNavLink,
-  StyledProductItemLink,
+  // StyledProductItemLink,
   StyledProductItemImgWrp,
   StyledProductItemImg,
   StyledCoinSection,
@@ -1247,7 +1247,7 @@ const Home = () => {
                   {t("landing.ourProducts.list.item3.text")}
                 </StyledProductItemText>
 
-                <StyledProductItemNavLink href="/">
+                <StyledProductItemNavLink to="/">
                   {t("landing.ourProducts.list.item3.link")}
                 </StyledProductItemNavLink>
               </StyledProductItemContentWrp>
@@ -1289,12 +1289,9 @@ const Home = () => {
                   {t("landing.ourProducts.list.item5.text")}
                 </StyledProductItemText>
 
-                <StyledProductItemLink
-                  href="https://crypto.neutronx.com/en/sign-in"
-                  target="_blank"
-                >
+                <StyledProductItemNavLink to="/">
                   {t("landing.ourProducts.list.item5.link")}
-                </StyledProductItemLink>
+                </StyledProductItemNavLink>
               </StyledProductItemContentWrp>
 
               <StyledProductItemImgWrp>
@@ -1508,7 +1505,9 @@ const Home = () => {
             {t("landing.questions.subTitle")}
           </StyledSectionSubTitle>
 
-          <StyledSectionTitle>{t("landing.questions.title")}</StyledSectionTitle>
+          <StyledSectionTitle>
+            {t("landing.questions.title")}
+          </StyledSectionTitle>
 
           <StyledQuestionArea>
             <QuestionList data={questions} />

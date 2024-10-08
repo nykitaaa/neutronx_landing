@@ -2,8 +2,8 @@ import { StyledSphere } from "./Sphere.styled";
 
 const Sphere = ({
   z,
-  l,
-  t,
+  l_m,
+  t_m,
   w_m,
   h_m,
   f_m,
@@ -20,8 +20,8 @@ const Sphere = ({
 }) => (
   <StyledSphere
     z={z}
-    l={l}
-    t={t}
+    l_m={l_m}
+    t_m={t_m}
     w_m={w_m}
     h_m={h_m}
     f_m={f_m}
